@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Portafolio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/img20230422_12074843.png" alt="">
+            </div>
+            <h1>Miguel Trillo</h1>
+            <h2>Practicante de Informatica y desarrollo de applicaciones web</h2>
+            <div class="redes">
+                <a href="https://wa.me/927360868" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="tel:+51927360868"><i class="fa-solid fa-phone"></i></a>
+                <a href="https://github.com/Miguel-Trillo" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Miguel Trillo.</span> Soy un estudiante apasionado por el desarrollo web que siempre esta en busca de aprender cosas nuevas, mi objetivo es aplicar mis conocimientos y habilidades en un entrono profesional donde pueda contribuir con soluciones innovadoras y eficientes.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            19-03-2005
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +51 927360868
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            migueltrillo1903@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Lomas de Zapallal, Puente Piedra
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Practicante de desarrollo web</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Conocimientos</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-database"></i>
+                            <span>Base de Datos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="download/CV - Trillo Paico Miguel.pdf" download="CV - Trillo Paico Miguel.pdf" style="text-decoration: none; color: white;">Descargar CV <i class="fa-solid fa-download"></i></a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    
+
+        <!-- SECCION CERTIFICADOS -->
+        <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2>Certificados</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <a href="#">
+                            <img src="img/Certificado-1.png" alt="">
+                            <div class="overlay">
+                                <h3>Inducción a la seguridad Cibernética</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="#">
+                            <img src="img/Html, Css y Js.jpg" alt="">
+                            <div class="overlay">
+                                <h3>Certificado de HTML y CSS</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="#">
+                            <img src="img/Seo.jpg" alt="">
+                            <div class="overlay">
+                            <h3>Certificado de SEO</h3>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- SECCION SOBRE MI -->
+        <section id="sobremi" class="sobremi">
+            <div class="contenido-seccion">
+                <h2>Experiencia Laboral</h2>
+    
+                <div class="fila">
+                    <!-- datos personales -->
+                    <div class="col">
+                        <h3>Programador Junior</h3>
+                        <ul>
+                            <li>
+                                <strong>Empresa</strong>
+                                GM Comunicaciones
+                            </li>
+                            <li>
+                                <strong>Teléfono</strong>
+                                +51 971 897 738
+                            </li>
+                            <li>
+                                <strong>Tiempo</strong>
+                                1 mes +
+                            </li>
+                        </ul>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://6789bcadb288457e7e455f3a--enel-peru.netlify.app/">
+                        <img src="img/enel.png" alt="">
+                        <div class="overlay">
+                            <h3>Pagina web de ENEL</h3>
+                            <p>HTML y CSS</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://carrito-de-compras-basico.web.app/" target="_blank">
+                        <img src="img/carrito_basico.png" alt="">
+                        <div class="overlay">
+                            <h3>Carrito de compras con localstorage</h3>
+                            <p>JavaScript</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://citas-veterinaria-1.web.app/" target="_blank">
+                        <img src="img/citas.png" alt="">
+                        <div class="overlay">
+                        <h3>Administrador de Citas</h3>
+                        <p>JavaScript</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
